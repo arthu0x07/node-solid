@@ -1,8 +1,18 @@
-# App
+# 🏋️ Aplicação de Check-ins em Academias (GymPass Style App)
 
-GymPass style app.
+Este projeto é uma aplicação para gerenciamento de check-ins em academias, seguindo as melhores práticas de desenvolvimento, incluindo SOLID, Design Patterns e autenticação segura.
 
-## RFs (Requisitos funcionais)
+## 🚀 Tecnologias e Conceitos Utilizados
+
+- **SOLID & Design Patterns** – Código modular e reutilizável utilizando padrões como Repository Pattern e Factory Pattern.
+- **Banco de Dados com Docker** – Facilita a configuração e garante um ambiente consistente.
+- **Autenticação Segura** – Implementação de JWT e Refresh Token para gerenciar sessões de usuários.
+- **RBAC (Role-Based Access Control)** – Controle de permissões baseado em papéis.
+- **Experiência do Usuário Aprimorada** – Check-ins rápidos e eficientes.
+
+---
+
+## ✅ RFs (Requisitos Funcionais)
 
 - [ ] Deve ser possível se cadastrar;
 - [ ] Deve ser possível se autenticar;
@@ -15,7 +25,9 @@ GymPass style app.
 - [ ] Deve ser possível validar o check-in de um usuário;
 - [ ] Deve ser possível cadastrar uma academia;
 
-## RNs (Regras de negócio)
+---
+
+## ⚖️ RNs (Regras de Negócio)
 
 - [ ] O usuário não deve poder se cadastrar com um e-mail duplicado;
 - [ ] O usuário não pode fazer 2 check-ins no mesmo dia;
@@ -24,7 +36,9 @@ GymPass style app.
 - [ ] O check-in só pode ser validado por administradores;
 - [ ] A academia só pode ser cadastrada por administradores;
 
-## RNFs (Requisitos não-funcionais)
+---
+
+## 🔒 RNFs (Requisitos Não-Funcionais)
 
 - [ ] A senha do usuário precisa estar criptografada;
 - [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
